@@ -1,19 +1,43 @@
 img {
-
-    width: 15px;
     
-    height: 15x;
-    
+    width: 100px;
+    height: 100px;
     float: left;
     
     }
     
-    #idCard {
-     
+    #idCard {    
+    margin-top: 5em;
+    margin-left: 50%;
+    margin-right: 50%;
+    vertical-align: middle; 
     border: 5px solid black;
-    margin: 50px;
+    border-radius: 10px;
     height: 14em;
-    
     width: 25em;
     
+    }
+
+    body {
+    margin-right: 50%; 
+    margin-left: 50%;
+    vertical-align: middle;
+    }
+    
+    #postFullName {
+    size: 15em;
+    float: right;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 50%;
+    }
+
+    #postAge {
+        float: left;
+    }
+    #posPhoneNumber {
+        float: left;
+    }
+    #postAddress {
+        float: left;
     }
