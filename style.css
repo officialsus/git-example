@@ -34,6 +34,7 @@ img {
 
     #postAge {
         float: left;
+        size: 20px;
     }
     #posPhoneNumber {
         float: left;
