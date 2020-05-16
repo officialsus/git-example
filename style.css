@@ -2,43 +2,47 @@ img {
     
     width: 100px;
     height: 100px;
+    margin-right: 2px;
+    margin-bottom: 2px;
     float: left;
     
     }
     
     #idCard {    
-    margin-top: 5em;
-    margin-left: 50%;
-    margin-right: 50%;
-    vertical-align: middle; 
+    position: fixed; 
+    left: 50%;
+    right: 50%;  
+    transform: translate(-50%, -50%);
+    margin-top: 10em;
     border: 5px solid black;
     border-radius: 10px;
     height: 14em;
-    width: 25em;
-    
+    width: 25em;    
     }
 
     body {
-    margin-right: 50%; 
-    margin-left: 50%;
+
     vertical-align: middle;
+    text-align: center;
     }
     
     #postFullName {
-    size: 15em;
-    float: right;
-    text-align: center;
-    margin-right: 50%;
-    margin-left: 50%;
+        text-transform: capitalize;
+        margin-left: 1em;
+        margin-right: 1em;
+        size: 10px;
+
     }
 
     #postAge {
         float: left;
-        size: 20px;
+     
     }
-    #posPhoneNumber {
+    #postPhoneNumber {
+        
         float: left;
     }
     #postAddress {
         float: left;
+        
     }
