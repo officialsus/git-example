@@ -13,17 +13,15 @@ img {
     }
     
     #idCard { 
-        font-family: 'Roboto', sans-serif;   
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
         background-color: #D581C1;
-        position: fixed; 
-        left: 50%;
-        right: 50%;  
-        transform: translate(-50%, -50%);
-        margin-top: 10em;
+        margin-left: auto;
+        margin-top: 5em;
         border: 5px solid black;
         border-radius: 10px;
         height: 14em;
-        width: 25em;    
+        width: 25em;   
     }
 
     body {
@@ -33,22 +31,18 @@ img {
     #innerIdCard {
         font-family: 'Roboto', sans-serif;
         justify-items: baseline;
-        position: fixed;
         text-align: left;
-        float: left;
-        margin-top: 5em;
+        margin-top: 2em;
         margin-left: 1em;
         align-items: baseline;
     }
 
     #postFullName {
-        margin-top: 1.5em;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1em;
         font-size: x-large;
         text-transform: capitalize;
-        position: fixed;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
     }
       
 
