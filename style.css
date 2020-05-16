@@ -1,48 +1,57 @@
+button:hover {
+    background-color: #D581C1;
+}
+body {
+    background-color: #367BA1;
+}
 img {
-    
     width: 100px;
     height: 100px;
     margin-right: 2px;
     margin-bottom: 2px;
     float: left;
-    
     }
     
-    #idCard {    
-    position: fixed; 
-    left: 50%;
-    right: 50%;  
-    transform: translate(-50%, -50%);
-    margin-top: 10em;
-    border: 5px solid black;
-    border-radius: 10px;
-    height: 14em;
-    width: 25em;    
+    #idCard { 
+        font-family: 'Roboto', sans-serif;   
+        background-color: #D581C1;
+        position: fixed; 
+        left: 50%;
+        right: 50%;  
+        transform: translate(-50%, -50%);
+        margin-top: 10em;
+        border: 5px solid black;
+        border-radius: 10px;
+        height: 14em;
+        width: 25em;    
     }
 
     body {
-
-    vertical-align: middle;
-    text-align: center;
+        vertical-align: middle;
+        text-align: center;
     }
-    
-    #postFullName {
-        text-transform: capitalize;
+    #innerIdCard {
+        font-family: 'Roboto', sans-serif;
+        justify-items: baseline;
+        position: fixed;
+        text-align: left;
+        float: left;
+        margin-top: 5em;
         margin-left: 1em;
-        margin-right: 1em;
-        size: 10px;
-
+        align-items: baseline;
     }
 
-    #postAge {
-        float: left;
-     
+    #postFullName {
+        margin-top: 1.5em;
+        font-size: x-large;
+        text-transform: capitalize;
+        position: fixed;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
     }
-    #postPhoneNumber {
-        
-        float: left;
-    }
+      
+
     #postAddress {
-        float: left;
-        
+        text-transform: capitalize;
     }

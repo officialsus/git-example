@@ -8,12 +8,13 @@ function idCard() {
     document.getElementById("postFullName").innerHTML = fullName;
     document.getElementById("postAddress").innerHTML = address;
     
-    numberArray = [];
-    numberArray.push(age+phoneNumber);
+    var numberArray = [];
+    numberArray.push(age, phoneNumber);
+   
 
-        for (var i = 0; i<numberArray.length; i++){
+        for (var i = 0; i < numberArray.length; i++){
             if (numberArray[i] <= 100) {
-            document.getElementById("postAge").innerHTML = "age: " + age;    
+            document.getElementById("postAge").innerHTML = "Age: " + age;
             }
             else if (numberArray[i] > 100) {
             document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber;
